@@ -50,7 +50,7 @@ def startHotspot(ssid, key):
 
 def stopHotspot():
 
-    is_stopped = msg_support in str(subprocess.check_output(arg_stophotspot, shell=True))
+    is_stopped = msg_stopped in str(subprocess.check_output(arg_stophotspot, shell=True))
     if(is_stopped):
         print("[OK][{0}] Hotspot Stopped".format(datetime.time(datetime.now())))                        
     else:
