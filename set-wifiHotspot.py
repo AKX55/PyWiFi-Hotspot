@@ -1,11 +1,7 @@
 """
-Owner: Akil Aubeeluck
 Email: aka@programmer.net
 
-This script is runnable using Windows Console
-"python currentFile.py" which will create logs for connection status.
-
-Example: "python currentFile.py "WiFi" "12345678" " will create a 
+Example: "python start set-wifiHotspot.py "WiFi" "12345678" " will create a 
 WiFi Hotspot of name 'WiFi' and Password '12345678'
 """
 import sys
