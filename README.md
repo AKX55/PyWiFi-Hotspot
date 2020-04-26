@@ -7,7 +7,8 @@ Wifi Hotspot Creator script for Windows
 	
 
     python set-wifiHotspot.py start "WiFi" "12345678"
--To Stop Hotspot:
+
+**Stopping Hotspot**
 
     python set-wifiHotspot.py stop
 
